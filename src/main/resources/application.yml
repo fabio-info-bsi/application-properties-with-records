@@ -1,0 +1,17 @@
+# Spring properties
+spring:
+  application:
+    name: application-properties-with-records
+server:
+  port: 8081
+# Customer properties
+integration:
+  client-x:
+    server: https://api-x.global.com
+    connection-timeout-read: 10000
+  client-y:
+    server: https://api-y.global.com
+    connection-timeout-read: 10000
+  client-z:
+    server: https://api-z.global.com
+    connection-timeout-read: 10000
